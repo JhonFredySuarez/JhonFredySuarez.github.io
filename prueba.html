@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Estilos</title>
+  <style type="text/css">
+   body {
+   	font-family:sans-serif;
+  	background-color: lightyellow;
+   	}
+   h1 {
+  	border-bottom: #FFCC66 5px solid;
+   	text-align: center;
+   	}
+   p {
+   	color:#660000;
+   	border: #FF9933 10px solid;
+   	border-width: 0 0 2px 2px;
+   	}
+   p.derecha {
+   	text-align: right;
+   	border-width: 0 2px 2px 0;
+   	}
+   #Pepe {
+   	color: red;
+   	border-width: 0;
+   	}
+   .destacado {
+   	color: white;
+   	background-color: red;
+   	}
+   p.destacado span.destacado {
+   	color: red;
+   	background-color: white;
+   	}
+ </style>
+</head>
+<body>
+ <h1>Estilos</h1>
+ <p>Los estilos simplifican el dise&ntilde;o de una p&aacute;gina.</p>
+ <p class="derecha">Podemos definirlos en el propio <span class="destacado">elemento</span>.</p>
+ <p>Definirlos en la <span class="destacado">cabecera</span>.</p>
+ <p class="derecha">O utilizar una <span class="destacado">hoja de estilo</span>.</p>
+ <p>&nbsp;</p>
+ <p id="Pepe">Este es el p&aacute;rrafo Pepe, con su propio estilo.</p>
+ <p class="destacado">Este es un p&aacute;rafo de la clase <span class="destacado">destacado</span>.</p>
+ <p class="destacado" style="background-color: orange">&Eacute;ste, tambi&eacute;n es destacado, 
+    pero con style=&quot;background-color: orange&quot;.</p>
+</body>
+</html>
